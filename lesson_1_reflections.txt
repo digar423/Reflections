@@ -1,0 +1,32 @@
+Q1.How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+Ans.If the file is large and a due to a slight change in the two files the entire files changes then we can use diff to see the bug and differences in the two. /* UBUNTU COMMAND LINE \\diff -u test1.txt test2.txt\\
+___________________________________________________________________________________________________________________________________________________________________________________________________________
+Q2.How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Ans. We can learn from the past mistakes and see the changes we have made and gone through.
+____________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Q3.What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Ans.Pros:
+		It completely depends upon user and is very flexible.
+	Cons:
+		Sometimes user may forget to commit or often commits too often.	
+____________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Q4.How can you use the commands git log and git diff to view the history of files?
+
+Ans. 	git log: allows to view all the commits made in the current repository.
+		git diff: //git diff commit_id1 commit_id2// This allows to see the changes made in the two commits entered.																					   
+____________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Q5.How might using version control make you more confident to make changes that could break something?
+
+Ans. As everthing we can check using version control and see the changes made using git diff and see how the repository used to look at the time of any commit. To do this use // git checkout commit_id// 
+____________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Q6.Now that you have your workspace set up, what do you want to try using Git for?
+
+Ans. I want git for basically vesion-control and see how the changes i have made impact the code.
+____________________________________________________________________________________________________________________________________________________________________________________________________________
